@@ -8,6 +8,7 @@ hamming_distance = sum(a != b for a, b in zip(k1, k2))
 
 print(hamming_distance)
 
+#or
 
 def hamming_distance(string1, string2):
     distance = 0
